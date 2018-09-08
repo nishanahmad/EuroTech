@@ -21,7 +21,7 @@ if(isset($_SESSION["user_name"]))
 		$item['description'] = $priceList['description'];
 		$items[] = $item;
 	}
-	$url =  "http://" . $_SERVER['SERVER_NAME'].'/eurotech/quotations/exports/page.php?id='.$_GET['id'];
+	$url =  "http://" . $_SERVER['SERVER_NAME'].'/quotations/exports/page.php?id='.$_GET['id'];
 	$fileName = 'qtn-'.$id.'.pdf';	
 ?>				
 <html lang="en" class="no-js">
