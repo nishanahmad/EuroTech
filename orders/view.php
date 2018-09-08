@@ -20,7 +20,7 @@ if(isset($_SESSION["user_name"]))
 		$item['description'] = $priceList['description'];
 		$items[] = $item;
 	}
-	$url =  "http://" . $_SERVER['SERVER_NAME'].'/eurotech/orders/exports/page.php?id='.$_GET['id'];
+	$url =  "http://" . $_SERVER['SERVER_NAME'].'/orders/exports/page.php?id='.$_GET['id'];
 	$fileName = 'ord-'.$id.'.pdf';
 	echo $url;
 ?>				
