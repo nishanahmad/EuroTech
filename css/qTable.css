@@ -1,0 +1,38 @@
+		.qTable{
+			width:75%;
+			border:1px solid #000000;			
+			border-collapse:collapse;
+		}
+		.qTable th{
+			padding: 10px;
+			border:1px solid #000000;
+			color : #000000;
+		}
+		.qTable td{
+			padding: 10px;
+			border-right:1px solid #000000;			
+			border-bottom:1px dashed #B8B8B8;			
+			color : #000000;
+		}		
+		
+		.qTablePdf{
+			width:80%;
+			border:1px solid #000000;			
+			border-collapse:collapse;
+		}
+		.qTablePdf th{
+			font-size:10;
+			font-weight:bold;
+			padding: 8px;
+			border:1px solid #000000;
+			color : #000000;
+		}
+		.qTablePdf td{
+			font-size:9;
+			font-weight:bold;
+			padding: 5px;
+			border-right:1px solid #000000;			
+			border-bottom:1px dashed #B8B8B8;			
+			color : #000000;
+			
+		}			
